@@ -20,4 +20,3 @@ script:
 
   # Test running the container.
   - docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ansible /lib/systemd/systemd
-  - docker-compose up
