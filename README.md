@@ -1,7 +1,7 @@
 Docker Bugzilla
 ===============
  
-[![Build Status](https://travis-ci.com/buluma/docker-bugzilla.svg?branch=main)](https://travis-ci.com/buluma/docker-bugzilla) [![Build](https://github.com/buluma/docker-bugzilla/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/buluma/docker-bugzilla/actions/workflows/build.yml)
+[![Build](https://github.com/buluma/docker-bugzilla/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/buluma/docker-bugzilla/actions/workflows/build.yml)
 
 Configure a running Bugzilla system using Docker
 
