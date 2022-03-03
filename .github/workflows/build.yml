@@ -9,6 +9,15 @@ on:
   schedule:
     - cron: '30 5,17 * * *'
   workflow_dispatch:
+    inputs:
+      debug:
+        type: boolean
+        required: false
+        default: 'false'
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   # Test the image builds and works correctly.
